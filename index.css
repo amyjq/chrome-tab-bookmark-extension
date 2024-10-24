@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid #5e21b2;
+    margin-bottom: 4px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+buttona {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    width: fit-content;
+    padding: 0 1rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+
+  button {
+    background-image: linear-gradient(92.88deg, #E6E6FA 9.16%, #D8BFD8 43.89%, #DDA0DD 64.72%); /* Light purple gradient */
+    border-radius: 8px;
+    border-style: none;
+    color: #00000099;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: 16px;
+    font-weight: bold;
+    height: 3rem;
+    width: fit-content;
+    padding: 0 1rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  
+  @media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  }
+
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 1px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+
+
+
